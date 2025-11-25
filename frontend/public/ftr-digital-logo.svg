@@ -1,0 +1,23 @@
+<svg width="320" height="140" viewBox="0 0 320 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="plateShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F7FB" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#D7DAE5" stop-opacity="0.2" />
+    </linearGradient>
+    <pattern id="textStripes" patternUnits="userSpaceOnUse" width="12" height="12">
+      <rect width="12" height="12" fill="transparent" />
+      <rect width="12" height="6" fill="#FFFFFF" />
+    </pattern>
+    <mask id="digitalMask">
+      <rect x="0" y="0" width="320" height="140" fill="#000" />
+      <text x="84" y="102" font-family="'Clash Display', 'Space Grotesk', 'Arial Black', sans-serif" font-weight="700" font-size="96" letter-spacing="4" fill="#fff">
+        DIGITAL
+      </text>
+    </mask>
+  </defs>
+  <g transform="translate(0,12)">
+    <rect x="70" y="24" width="236" height="88" fill="url(#textStripes)" mask="url(#digitalMask)" />
+    <path d="M70 24 L230 0 L306 0 L306 24 Z" fill="url(#plateShadow)" />
+    <text x="18" y="64" font-family="'Space Grotesk', 'Arial Black', sans-serif" font-weight="700" font-size="48" fill="#FFFFFF">FTR</text>
+  </g>
+</svg>

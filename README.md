@@ -1,61 +1,60 @@
-# 🚀 Getting started with Strapi
+# FTR Digital stack
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This repository now houses:
 
-### `develop`
+- `frontend/` – Svelte + Vite single page marketing/AI admin experience.
+- Strapi backend (root) – headless CMS powering structured content and media.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+Both apps run independently so you can iterate on either side without rebuilding the other.
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Quick start
 
-### `start`
+| Service | Location | Install | Run |
+| --- | --- | --- | --- |
+| Strapi CMS | `./` | `npm install` | `npm run develop` |
+| Svelte frontend | `./frontend` | `npm install` | `npm run dev` |
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+1. Open two terminals.
+2. In the first, run the Strapi dev server (default: `http://localhost:1337`).
+3. In the second, start the Svelte dev server (default: `http://localhost:5173` unless overridden in `vite.config.js`).
 
-```
-npm run start
-# or
-yarn start
-```
+Update environment variables as needed (e.g., `VITE_AI_PROXY`, `VITE_AI_KEY`) before launching the frontend so its admin chat can reach your proxy/model of choice. See `frontend/README.md` for the full list plus Windows helper scripts.
 
-### `build`
+## Backend (Strapi)
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+Common scripts:
 
-```
-npm run build
-# or
-yarn build
-```
+- `npm run develop` – watch mode with autoReload. [Docs](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+- `npm run start` – production start without autoReload.
+- `npm run build` – build the Strapi admin panel.
+- `npm run seed:example` – load the sample content defined in `scripts/seed.js`.
 
-## ⚙️ Deployment
+### Deployment
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+Strapi supports a wide range of targets including [Strapi Cloud](https://cloud.strapi.io). Follow the [deployment guide](https://docs.strapi.io/dev-docs/deployment) appropriate for your host. The default CLI command is:
 
 ```
 yarn strapi deploy
 ```
 
-## 📚 Learn more
+## Frontend (Svelte + Vite)
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+- Located under `frontend/` (migrated from the former `merge/` drop folder).
+- Uses the scripts defined in `frontend/package.json` (`dev`, `build`, `preview`, `check`, `ai-proxy`, etc.).
+- Editable site copy and theming live in `frontend/public/site.json` plus the `src/components/` tree.
+- Helper Windows scripts (`installreq.bat`, `run.bat`) remain in the same folder.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+Refer to `frontend/README.md` for design notes, data model tips, and AI proxy instructions.
 
-## ✨ Community
+## Helpful links
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+- [Resource center](https://strapi.io/resource-center)
+- [Strapi documentation](https://docs.strapi.io)
+- [Strapi tutorials](https://strapi.io/tutorials)
+- [Strapi blog](https://strapi.io/blog)
+- [Changelog](https://strapi.io/changelog)
+- [Strapi GitHub repository](https://github.com/strapi/strapi)
 
----
+Community channels: [Discord](https://discord.strapi.io), [Forum](https://forum.strapi.io/), [Awesome Strapi](https://github.com/strapi/awesome-strapi).
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>

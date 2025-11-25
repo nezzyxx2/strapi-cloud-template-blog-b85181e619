@@ -1,0 +1,10 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ftrGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28 24) rotate(54) scale(84)">
+      <stop offset="0" stop-color="#4E8DFF" />
+      <stop offset="1" stop-color="#0A2A63" />
+    </radialGradient>
+  </defs>
+  <circle cx="48" cy="48" r="44" fill="url(#ftrGradient)" />
+  <path d="M28 60V32h24v6H35v5.6h15.2V49H35v11h-7Zm27.2 0V32h19.6v6H62v22h-6.8Zm9.6-8.2v-5.6h9.2v5.6h-9.2Zm0-9.8v-5.6h9.2v5.6h-9.2Z" fill="#F8FAFF" />
+</svg>

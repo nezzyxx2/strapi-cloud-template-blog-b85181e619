@@ -1,0 +1,175 @@
+{
+  "brand": {
+    "name": "FTR Digital",
+    "logo": "/ftr-icon.svg",
+    "tagline": "Modern media & engineering",
+    "location": "Melbourne",
+    "summary": "FTR Digital is an Australia-based collective with UK partners delivering media, design and engineering sprints for ambitious brands.",
+    "email": "support@ftrdigital.org",
+    "phone": "+61 458 445 043",
+    "instagram": "https://www.instagram.com/ftrdigital.au/",
+    "cta": {
+      "label": "Book a Session",
+      "href": "#contact"
+    }
+  },
+  "palette": {
+    "bg": "#060708",
+    "bgSoft": "#0E1014",
+    "panel": "#12151C",
+    "stroke": "#1F2430",
+    "text": "#F5F7FB",
+    "muted": "#8C96AD",
+    "mutedSoft": "#B1BCD3",
+    "accent": "#25C2FF",
+    "accentSoft": "#4E6BFF"
+  },
+  "paletteLight": {
+    "bg": "#F5F7FB",
+    "bgSoft": "#E8ECF6",
+    "panel": "#FFFFFF",
+    "stroke": "#CBD4E6",
+    "text": "#111421",
+    "muted": "#4F5A73",
+    "mutedSoft": "#6A7690",
+    "accent": "#356BFF",
+    "accentSoft": "#6B9FFF"
+  },
+  "nav": [
+    { "label": "Work", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Approach", "href": "#approach" },
+    { "label": "Partners", "href": "#partners" },
+    { "label": "Contact", "href": "#contact" },
+    { "label": "Docs", "href": "/docs" }
+  ],
+  "hero": {
+    "eyebrow": "Australia",
+    "title": "Digital media & engineering for creators & brands.",
+    "subtitle": "Some are usually growers and not showers, but here @ FTR Digital we believe in growing and showing.",
+    "primary": {
+      "label": "View Portfolio",
+      "href": "#work"
+    },
+    "secondary": {
+      "label": "Capabilities Deck",
+      "href": "#services"
+    },
+    "metrics": [
+      { "label": "Clients", "value": "5+" },
+  { "label": "Client Satisfaction", "value": "100%" },
+      { "label": "Countries", "value": "2" }
+    ]
+  },
+  "services": [
+    {
+      "title": "Launch Pods",
+      "summary": "Drop-in crews that write, shoot and edit a full campaign cycle inside a single sprint.",
+      "deliverables": ["Concept > delivery", "On-set direction", "Overnight edit desk"],
+      "icon": "🚀"
+    },
+    {
+      "title": "Experience Stack",
+      "summary": "Prototype-led product sites, landing stacks and interactive tools tuned for conversion.",
+      "deliverables": ["UI/UX systems", "Interactive demos", "Webflow & Svelte handoff"],
+      "icon": "💻"
+    },
+    {
+      "title": "Visual Systems",
+      "summary": "Motion, titles and visual identities that stay consistent across socials, decks and merch.",
+      "deliverables": ["3D/mograph", "Brand kits", "Social-ready presets"],
+      "icon": "🎨"
+    },
+    {
+      "title": "Automation Desk",
+      "summary": "Lightweight bots, triggers and reporting layers so ops keeps pace with content output.",
+      "deliverables": ["Zapier/Node tooling", "Notion & Sheets sync", "Realtime dashboards"],
+      "icon": "⚙️"
+    }
+  ],
+  "approach": {
+    "title": "Modern, calm and technical.",
+    "steps": [
+      {
+        "heading": "01 / Framing",
+        "copy": "Hybrid workshops align media ambitions with technical constraints and sponsor targets."
+      },
+      {
+        "heading": "02 / Build",
+        "copy": "Design, engineering and content teams sprint together with daily review loops."
+      },
+      {
+        "heading": "03 / Amplify",
+        "copy": "Growth operators execute the social, sponsorship and merch plans to keep momentum."
+      }
+    ],
+    "callout": "Every engagement ships with a living operating manual so your crew can run it without us."
+  },
+  "portfolio": [
+    {
+      "name": "Tyres Now",
+      "category": "Mechanic & Tyre Shop",
+      "description": "Managing social growth, media production and web ops.",
+      "stats": ["Media", "UI/UX", "Automated Posts"],
+      "image": "https://files.catbox.moe/l3yek1.webp"
+    },
+    {
+      "name": "OzHoons Media",
+      "category": "Social Media & Growth",
+      "description": "Automated content, stories & collaborative posts for a car culture collective.",
+      "stats": ["Cars", "Media", "Instagram Growth"],
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "partners": {
+    "title": "Trusted by creators, brands and creators.",
+    "logos": ["Tyres Now", "Blueprint Studios", "Fast Networks", "OzHoons Media", "FTK Series", "Stage Left", "Tyres Now", "Blueprint Studios", "Fast Networks", "OzHoons Media", "FTK Series", "Stage Left"],
+    "regions": ["Melbourne"]
+  },
+  "testimonials": [
+    {
+      "quote": "They direct, shoot, code and ship campaigns in the same sprint. It's rare to find a crew that fluent across media and backend.",
+      "author": "Tahlia Mercer",
+      "role": "Head of Brand, Circuit Eight"
+    },
+    {
+      "quote": "FTR Digital gave us a toolkit to scale social without adding headcount. Growth dashboards were live in week one.",
+      "author": "Elliot Khan",
+      "role": "Co-founder, Nightwave"
+    }
+  ],
+  "insights": [
+    {
+      "title": "Seven rules for cinematic SaaS launches",
+      "tag": "Playbook",
+      "link": "#"
+    },
+    {
+      "title": "How we merge Unreal scenes with Svelte frontends",
+      "tag": "Dev Notes",
+      "link": "#"
+    },
+    {
+      "title": "What sponsors want from creator collectives in 2025",
+      "tag": "Report",
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "title": "Tell us what you're building.",
+    "copy": "Drop context, links or budgets. We reply within one business day across AU/UK time zones.",
+    "form": {
+      "fields": [
+        { "name": "name", "label": "Name", "type": "text", "placeholder": "Jordan from Kestrel Labs" },
+        { "name": "email", "label": "Email", "type": "email", "placeholder": "you@brand.com" },
+        { "name": "company", "label": "Company / Collective", "type": "text", "placeholder": "Kestrel Labs" },
+        { "name": "message", "label": "Project Notes", "type": "textarea", "placeholder": "What are you launching? Where do you need help?" }
+      ],
+      "submit": "Send Brief"
+    },
+    "details": [
+      { "label": "Physical Location", "value": "Melbourne" },
+      { "label": "Response time", "value": "24-48 Hours" }
+    ]
+  }
+}
